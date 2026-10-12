@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "name": "Design History Learning System",
+  "integration": {
+    "dashboard": {
+      "sources": [
+        "statistics-config.json",
+        "navigation.json",
+        "dashboard-config.json"
+      ]
+    },
+    "timeline": {
+      "source": "design-history.json",
+      "links": ["designers.json", "works.json", "exam-bank.json"]
+    },
+    "study": {
+      "source": "review-system.json",
+      "plan": "study-plan.json",
+      "progress": "progress-system.json"
+    },
+    "graph": {
+      "source": "knowledge-graph.json"
+    }
+  }
+}
