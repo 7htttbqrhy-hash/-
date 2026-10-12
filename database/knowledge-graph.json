@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {"id":"arts-crafts","name":"工艺美术运动","type":"movement","level":"red"},
+    {"id":"morris","name":"威廉·莫里斯","type":"designer","level":"red"},
+    {"id":"werkbund","name":"德意志制造联盟","type":"movement","level":"red"},
+    {"id":"bauhaus","name":"包豪斯","type":"movement","level":"red"},
+    {"id":"gropius","name":"格罗皮乌斯","type":"designer","level":"red"},
+    {"id":"international","name":"国际主义设计","type":"movement","level":"red"},
+    {"id":"postmodern","name":"后现代主义设计","type":"movement","level":"yellow"}
+  ],
+  "links": [
+    {"source":"morris","target":"arts-crafts","relation":"核心人物"},
+    {"source":"arts-crafts","target":"werkbund","relation":"影响"},
+    {"source":"werkbund","target":"bauhaus","relation":"发展"},
+    {"source":"gropius","target":"bauhaus","relation":"创办"},
+    {"source":"bauhaus","target":"international","relation":"推动"},
+    {"source":"international","target":"postmodern","relation":"反思与转向"}
+  ]
+}
