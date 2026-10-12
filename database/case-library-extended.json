@@ -1,0 +1,37 @@
+{
+  "title": "Design History Exam Case Library Extended",
+  "cases": [
+    {
+      "name": "1909 AEG Turbine Factory",
+      "movement": "德意志制造联盟",
+      "designer": "彼得·贝伦斯",
+      "level": "red",
+      "keywords": ["企业设计", "标准化", "工业设计"],
+      "examUse": ["德意志制造联盟特点", "现代工业设计形成" ]
+    },
+    {
+      "name": "LC4躺椅",
+      "movement": "现代主义设计",
+      "designer": "勒·柯布西耶",
+      "level": "yellow",
+      "keywords": ["功能主义", "人体工程学", "现代家具"],
+      "examUse": ["现代主义设计特点", "功能与形式关系"]
+    },
+    {
+      "name": "潘顿椅",
+      "movement": "后现代设计前期",
+      "designer": "维纳·潘顿",
+      "level": "yellow",
+      "keywords": ["新材料", "塑料成型", "家具创新"],
+      "examUse": ["20世纪设计发展", "材料技术影响设计"]
+    },
+    {
+      "name": "iMac G3",
+      "movement": "当代设计",
+      "designer": "苹果设计团队",
+      "level": "blue",
+      "keywords": ["用户体验", "工业设计", "品牌设计"],
+      "examUse": ["当代设计趋势", "设计与商业关系"]
+    }
+  ]
+}
