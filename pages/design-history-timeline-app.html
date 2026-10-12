@@ -4,20 +4,30 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Design History Timeline</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#080808;color:#eee;font-family:Arial,"Microsoft YaHei"}.wrap{padding:50px;overflow-x:auto}.title{font-size:40px;font-weight:700}.sub{color:#999;margin:15px 0 35px}.filters button{background:#171717;color:#eee;border:1px solid #555;padding:10px 20px;border-radius:30px;margin-right:10px;cursor:pointer}.line{display:flex;gap:35px;min-width:5200px;position:relative}.line:before{content:"";position:absolute;top:145px;left:0;right:0;height:3px;background:#444}.card{width:250px;position:relative}.dot{width:24px;height:24px;border-radius:50%;margin:130px auto 25px;background:#d33;position:relative;z-index:2}.yellow .dot{background:#d7ad20}.blue .dot{background:#2670d8}.box{background:#151515;border:1px solid #333;border-radius:18px;padding:22px;cursor:pointer;transition:.35s}.box:hover{transform:translateY(-12px);border-color:#aaa}.detail{display:none;color:#bbb;line-height:1.8;margin-top:15px}.active .detail{display:block}.hidden{display:none}.tag{color:#aaa;font-size:13px}.year{color:#888}
+*{box-sizing:border-box}body{margin:0;background:#070707;color:#eee;font-family:Arial,"Microsoft YaHei"}.wrap{padding:50px;overflow-x:auto}.title{font-size:42px}.sub{color:#999;margin-bottom:30px}.filters button{background:#161616;color:#eee;border:1px solid #555;padding:10px 20px;border-radius:30px;margin-right:10px;cursor:pointer}.line{display:flex;gap:40px;min-width:6000px;position:relative}.line:before{content:"";position:absolute;top:150px;left:0;right:0;height:3px;background:#444}.card{width:270px}.dot{width:25px;height:25px;border-radius:50%;background:#d33;margin:135px auto 25px}.yellow .dot{background:#d7ad20}.blue .dot{background:#2670d8}.box{background:#151515;border:1px solid #333;border-radius:20px;padding:22px;cursor:pointer;transition:.3s}.box:hover{transform:translateY(-10px)}.detail{display:none;color:#bbb;line-height:1.8;margin-top:15px}.active .detail{display:block}.hidden{display:none}.panel{position:fixed;right:0;top:0;width:420px;height:100%;background:#111;border-left:1px solid #333;padding:35px;transform:translateX(100%);transition:.4s;overflow:auto}.panel.show{transform:translateX(0)}.close{cursor:pointer;color:#aaa}.tag{color:#aaa}.year{color:#888}
 </style></head>
-<body><div class="wrap"><h1 class="title">设计史演变时间轴</h1><div class="sub">时代变化 → 社会问题 → 设计回应 → 运动形成 → 历史影响</div>
-<div class="filters"><button onclick="filter('all')">全部</button><button onclick="filter('red')">🔴核心</button><button onclick="filter('yellow')">🟡高频</button><button onclick="filter('blue')">🔵扩展</button></div><br><div class="line">
-<div class="card red"><div class="dot"></div><div class="box"><div class="tag">🔴核心</div><div class="year">1750</div><b>工业革命</b><div class="detail">机械化生产改变制造体系，为现代设计产生提供社会基础。</div></div></div>
-<div class="card red"><div class="dot"></div><div class="box"><div class="tag">🔴核心</div><div class="year">1851</div><b>水晶宫国际博览会</b><div class="detail">工业技术展示暴露产品质量与审美问题，引发设计改革。</div></div></div>
-<div class="card red"><div class="dot"></div><div class="box"><div class="tag">🔴核心</div><div class="year">1880</div><b>工艺美术运动</b><div class="detail">拉斯金、莫里斯反思工业化，强调艺术与生活结合。</div></div></div>
-<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡高频</div><div class="year">1890</div><b>新艺术运动</b><div class="detail">探索新的时代形式语言，反对历史样式束缚。</div></div></div>
-<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡高频</div><div class="year">1917</div><b>风格派与构成主义</b><div class="detail">抽象形式与社会功能结合，推动现代视觉语言形成。</div></div></div>
-<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡高频</div><div class="year">1907</div><b>德意志制造联盟</b><div class="detail">艺术进入工业体系，推动标准化与现代工业设计。</div></div></div>
-<div class="card red"><div class="dot"></div><div class="box"><div class="tag">🔴核心</div><div class="year">1919</div><b>包豪斯</b><div class="detail">建立现代设计教育体系，提出艺术与技术统一。</div></div></div>
-<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡高频</div><div class="year">1925</div><b>装饰艺术运动</b><div class="detail">工业文明与装饰美学结合，形成20世纪视觉风格。</div></div></div>
-<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡高频</div><div class="year">1953</div><b>乌尔姆设计学院</b><div class="detail">设计进一步科学化，强调系统设计与理性方法。</div></div></div>
-<div class="card blue"><div class="dot"></div><div class="box"><div class="tag">🔵扩展</div><div class="year">1960s</div><b>波普设计</b><div class="detail">大众文化进入设计领域，回应消费社会。</div></div></div>
-<div class="card blue"><div class="dot"></div><div class="box"><div class="tag">🔵扩展</div><div class="year">1980+</div><b>后现代与解构主义</b><div class="detail">反思单一现代主义，推动设计多元化发展。</div></div></div>
-<div class="card blue"><div class="dot"></div><div class="box"><div class="tag">🔵扩展</div><div class="year">2000+</div><b>数字与可持续设计</b><div class="detail">设计对象扩展到体验、服务、系统和社会问题。</div></div></div>
-</div></div><script>document.querySelectorAll('.box').forEach(e=>e.onclick=()=>e.classList.toggle('active'));function filter(t){document.querySelectorAll('.card').forEach(e=>e.classList.toggle('hidden',t!='all'&&!e.classList.contains(t)))}</script></body></html>
+<body>
+<div class="wrap"><h1 class="title">设计史演变时间轴</h1><div class="sub">时代变化 → 社会问题 → 设计回应 → 运动形成 → 历史影响</div>
+<div class="filters"><button onclick="filter('all')">全部</button><button onclick="filter('red')">🔴核心</button><button onclick="filter('yellow')">🟡高频</button><button onclick="filter('blue')">🔵扩展</button></div><br>
+<div class="line" id="timeline">
+</div></div>
+<div class="panel" id="panel"><div class="close" onclick="closePanel()">关闭 ×</div><h2 id="ptitle"></h2><div id="pcontent"></div></div>
+<script>
+const data=[
+['red','1750','工业革命','机械化生产改变制造体系，为现代设计产生提供社会基础。'],
+['red','1851','水晶宫国际博览会','工业技术展示暴露产品质量与审美问题，引发设计改革。'],
+['red','1880','工艺美术运动','拉斯金、莫里斯反思工业化，强调艺术与生活结合。'],
+['yellow','1890','新艺术运动','探索新的时代形式语言，反对历史样式束缚。'],
+['yellow','1907','德意志制造联盟','艺术进入工业体系，推动标准化与现代工业设计。'],
+['yellow','1917','风格派与构成主义','抽象形式与社会功能结合，推动现代视觉语言形成。'],
+['red','1919','包豪斯','建立现代设计教育体系，提出艺术与技术统一。'],
+['yellow','1925','装饰艺术运动','工业文明与装饰美学结合。'],
+['yellow','1953','乌尔姆设计学院','设计进一步科学化，强调系统设计。'],
+['blue','1960s','波普设计','大众文化进入设计领域，回应消费社会。'],
+['blue','1980+','后现代与解构主义','反思单一现代主义，推动设计多元化。'],
+['blue','2000+','数字与可持续设计','设计对象扩展到体验、服务和系统。']];
+const t=document.getElementById('timeline');data.forEach(x=>{let c=document.createElement('div');c.className='card '+x[0];c.innerHTML=`<div class="dot"></div><div class="box"><div class="tag">${x[0]=='red'?'🔴核心':x[0]=='yellow'?'🟡高频':'🔵扩展'}</div><div class="year">${x[1]}</div><b>${x[2]}</b><div class="detail">${x[3]}</div></div>`;c.querySelector('.box').onclick=()=>openPanel(x);t.appendChild(c)});
+function openPanel(x){document.getElementById('ptitle').innerHTML=x[1]+' '+x[2];document.getElementById('pcontent').innerHTML='<h3>出现原因</h3><p>'+x[3]+'</p><h3>历史影响</h3><p>推动设计思想与实践的发展，形成后续设计体系。</p>';document.getElementById('panel').classList.add('show')}
+function closePanel(){document.getElementById('panel').classList.remove('show')}
+function filter(t){document.querySelectorAll('.card').forEach(e=>e.classList.toggle('hidden',t!='all'&&!e.classList.contains(t)))}
+</script></body></html>
