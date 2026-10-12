@@ -1,0 +1,31 @@
+{
+  "module": "case-detail-page",
+  "description": "设计史案例详情展示配置",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "案例概览",
+      "fields": ["name", "period", "movement", "designer", "level"]
+    },
+    {
+      "id": "history",
+      "title": "历史背景",
+      "fields": ["background", "social_context"]
+    },
+    {
+      "id": "concept",
+      "title": "设计思想",
+      "fields": ["concept", "principles"]
+    },
+    {
+      "id": "exam",
+      "title": "考研应用",
+      "fields": ["keywords", "question_types", "answer_template"]
+    }
+  ],
+  "interaction": {
+    "related_nodes": true,
+    "recommend_questions": true,
+    "copy_answer_structure": true
+  }
+}
