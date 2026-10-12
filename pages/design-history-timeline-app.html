@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Design History Timeline</title>
+<style>
+body{margin:0;background:#111;color:#eee;font-family:Arial,"Microsoft YaHei",sans-serif}
+.wrap{padding:40px;overflow-x:auto}.title{font-size:32px;margin-bottom:30px}.line{display:flex;gap:30px;min-width:1200px;position:relative}.line:before{content:"";position:absolute;top:100px;left:0;right:0;height:2px;background:#555}.card{width:220px;position:relative}.dot{width:18px;height:18px;border-radius:50%;margin:80px auto 20px;background:#d33;position:relative;z-index:2}.yellow .dot{background:#d8ad20}.blue .dot{background:#2670d8}.box{background:#1c1c1c;border:1px solid #333;padding:18px;border-radius:12px;cursor:pointer;transition:.3s}.box:hover{transform:translateY(-8px);border-color:#888}.detail{display:none;margin-top:12px;color:#bbb;line-height:1.6}.box.active .detail{display:block}.tag{font-size:12px;margin-bottom:8px;color:#aaa}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="title">设计史演变时间轴 / Design History Timeline</div>
+<div class="line">
+<div class="card"><div class="dot"></div><div class="box"><div class="tag">🔴 核心</div><h3>1750 工业革命</h3><div class="detail">机械化生产改变社会结构，现代设计产生的历史背景。</div></div></div>
+<div class="card"><div class="dot"></div><div class="box"><div class="tag">🔴 核心</div><h3>1851 水晶宫博览会</h3><div class="detail">工业技术展示暴露产品审美问题，引发设计改革。</div></div></div>
+<div class="card"><div class="dot"></div><div class="box"><div class="tag">🔴 核心</div><h3>1880 工艺美术运动</h3><div class="detail">莫里斯与拉斯金倡导艺术与生活结合。</div></div></div>
+<div class="card yellow"><div class="dot"></div><div class="box"><div class="tag">🟡 高频</div><h3>1907 制造联盟</h3><div class="detail">艺术进入工业体系，现代工业设计形成。</div></div></div>
+<div class="card"><div class="dot"></div><div class="box"><div class="tag">🔴 核心</div><h3>1919 包豪斯</h3><div class="detail">建立现代设计教育体系，提出艺术与技术统一。</div></div></div>
+<div class="card blue"><div class="dot"></div><div class="box"><div class="tag">🔵 扩展</div><h3>当代数字设计</h3><div class="detail">设计对象从产品扩展到体验、服务和系统。</div></div></div>
+</div>
+</div>
+<script>document.querySelectorAll('.box').forEach(e=>e.onclick=()=>e.classList.toggle('active'));</script>
+</body>
+</html>
