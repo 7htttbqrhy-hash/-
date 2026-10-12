@@ -1,0 +1,22 @@
+{
+  "interaction": {
+    "hover": true,
+    "click_expand": true,
+    "filter": ["red", "yellow", "blue"]
+  },
+  "card": {
+    "fields": [
+      "year",
+      "event",
+      "why_appeared",
+      "design_response",
+      "representatives",
+      "influence",
+      "exam_value"
+    ]
+  },
+  "view": {
+    "mode": "horizontal_timeline",
+    "theme": "dark_minimal"
+  }
+}
