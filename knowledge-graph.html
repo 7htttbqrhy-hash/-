@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Design History Knowledge Graph</title>
+<style>
+body{margin:0;background:#080808;color:#eee;font-family:Arial,"Microsoft YaHei",sans-serif;display:flex;justify-content:center;align-items:center;height:100vh}
+.graph{position:relative;width:900px;height:600px}
+.node{position:absolute;padding:18px 28px;border-radius:50px;background:#151515;border:1px solid #444;cursor:pointer;transition:.3s}
+.node:hover{transform:scale(1.08);border-color:#fff}
+.red{box-shadow:0 0 20px rgba(230,57,70,.5)}
+.yellow{box-shadow:0 0 20px rgba(212,160,23,.5)}
+.blue{box-shadow:0 0 20px rgba(37,99,235,.5)}
+.line{position:absolute;height:1px;background:#555;transform-origin:left center}
+</style>
+</head>
+<body>
+<div class="graph">
+<div class="node red" style="left:50px;top:260px">工艺美术运动</div>
+<div class="node red" style="left:280px;top:260px">德意志制造联盟</div>
+<div class="node red" style="left:520px;top:260px">包豪斯</div>
+<div class="node red" style="left:720px;top:260px">国际主义设计</div>
+<div class="node yellow" style="left:280px;top:80px">新艺术运动</div>
+<div class="node yellow" style="left:520px;top:440px">后现代主义</div>
+</div>
+</body>
+</html>
