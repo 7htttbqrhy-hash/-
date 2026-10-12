@@ -1,0 +1,34 @@
+{
+  "graph": {
+    "title": "Design History Knowledge Graph",
+    "description": "设计运动、人物、作品与考研知识点的关联可视化配置",
+    "nodeTypes": [
+      {
+        "type": "movement",
+        "label": "设计运动"
+      },
+      {
+        "type": "designer",
+        "label": "设计师"
+      },
+      {
+        "type": "work",
+        "label": "设计作品"
+      },
+      {
+        "type": "exam",
+        "label": "考研考点"
+      }
+    ],
+    "interaction": {
+      "hover": "preview",
+      "click": "open-detail",
+      "expand": "show-relations"
+    },
+    "priority": {
+      "red": "核心必背",
+      "yellow": "高频重点",
+      "blue": "扩展理解"
+    }
+  }
+}
