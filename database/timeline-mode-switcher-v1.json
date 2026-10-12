@@ -1,0 +1,16 @@
+{
+  "modes": [
+    {
+      "id": "history",
+      "name": "历史演变模式",
+      "focus": "时代变化→社会问题→设计回应→运动形成→历史影响",
+      "display": ["cause", "response", "influence", "connection"]
+    },
+    {
+      "id": "exam",
+      "name": "考研复习模式",
+      "focus": "核心概念→代表人物→代表作品→答题价值",
+      "display": ["importance", "term", "essay", "case"]
+    }
+  ]
+}
