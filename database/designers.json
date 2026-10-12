@@ -1,23 +1,50 @@
 [
   {
+    "name":"约翰·拉斯金 John Ruskin",
+    "movement":"工艺美术运动",
+    "level":"red",
+    "keywords":["反工业化批判","手工艺价值","社会责任"],
+    "importance":"★★★★★",
+    "exam":["人物比较","简答题"]
+  },
+  {
     "name":"威廉·莫里斯 William Morris",
     "movement":"工艺美术运动",
     "level":"red",
-    "keywords":["手工艺","艺术与生活结合"],
-    "importance":"★★★★★"
+    "keywords":["手工艺","艺术与生活结合","红屋"],
+    "importance":"★★★★★",
+    "exam":["名词解释","简答题","论述题"]
+  },
+  {
+    "name":"彼得·贝伦斯 Peter Behrens",
+    "movement":"德意志制造联盟",
+    "level":"red",
+    "keywords":["现代企业设计","AEG","工业设计先驱"],
+    "importance":"★★★★★",
+    "exam":["名词解释","简答题"]
   },
   {
     "name":"沃尔特·格罗皮乌斯 Walter Gropius",
     "movement":"包豪斯",
     "level":"red",
-    "keywords":["艺术与技术的新统一","现代设计教育"],
-    "importance":"★★★★★"
+    "keywords":["艺术与技术的新统一","包豪斯校长","现代设计教育"],
+    "importance":"★★★★★",
+    "exam":["名词解释","论述题"]
   },
   {
     "name":"米斯·凡德罗 Ludwig Mies van der Rohe",
-    "movement":"现代主义设计",
+    "movement":"国际主义设计",
     "level":"red",
-    "keywords":["少即是多","国际主义设计"],
-    "importance":"★★★★★"
+    "keywords":["少即是多","理性主义","钢与玻璃"],
+    "importance":"★★★★★",
+    "exam":["人物分析","简答题"]
+  },
+  {
+    "name":"罗伯特·文丘里 Robert Venturi",
+    "movement":"后现代主义设计",
+    "level":"yellow",
+    "keywords":["复杂性与矛盾性","反现代主义单一原则"],
+    "importance":"★★★★",
+    "exam":["简答题"]
   }
 ]
