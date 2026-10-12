@@ -1,0 +1,23 @@
+[
+  {
+    "name":"威廉·莫里斯 William Morris",
+    "movement":"工艺美术运动",
+    "level":"red",
+    "keywords":["手工艺","艺术与生活结合"],
+    "importance":"★★★★★"
+  },
+  {
+    "name":"沃尔特·格罗皮乌斯 Walter Gropius",
+    "movement":"包豪斯",
+    "level":"red",
+    "keywords":["艺术与技术的新统一","现代设计教育"],
+    "importance":"★★★★★"
+  },
+  {
+    "name":"米斯·凡德罗 Ludwig Mies van der Rohe",
+    "movement":"现代主义设计",
+    "level":"red",
+    "keywords":["少即是多","国际主义设计"],
+    "importance":"★★★★★"
+  }
+]
