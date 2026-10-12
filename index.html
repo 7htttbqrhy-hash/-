@@ -10,8 +10,21 @@
 <header>
 <h1>DESIGN HISTORY TIMELINE</h1>
 <p>设计史交互时间轴 · Industrial Design History</p>
+<div class="legend">
+<span class="red-dot">🔴 必背核心</span>
+<span class="yellow-dot">🟡 高频重点</span>
+<span class="blue-dot">🔵 扩展了解</span>
+</div>
 </header>
+<main>
+<div class="tools">
+<button onclick="renderLevel('all')">全部</button>
+<button onclick="renderLevel('red')">🔴核心</button>
+<button onclick="renderLevel('yellow')">🟡重点</button>
+<button onclick="renderLevel('blue')">🔵扩展</button>
+</div>
 <main id="timeline"></main>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
