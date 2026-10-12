@@ -1,0 +1,10 @@
+{
+  "timeline": [
+    {"year":"1890-1910","name":"新艺术运动","level":"red","reason":"回应工业化时代装饰与形式问题","core":"探索新的艺术形式，反对历史样式简单复古","figures":["威尔德","高迪"],"impact":"推动现代设计形式语言形成"},
+    {"year":"1917","name":"风格派","level":"yellow","reason":"追求新的视觉秩序","core":"几何抽象、理性构成、新造型主义","figures":["蒙德里安","里特维尔德"],"impact":"影响现代平面与产品设计"},
+    {"year":"1917","name":"俄国构成主义","level":"yellow","reason":"探索艺术与社会生产关系","core":"结构、材料、功能结合","figures":["塔特林"],"impact":"影响现代建筑与视觉设计"},
+    {"year":"1925","name":"装饰艺术运动","level":"yellow","reason":"工业文明与装饰美学结合","core":"几何化、现代感、奢华表达","figures":[],"impact":"影响20世纪视觉文化"},
+    {"year":"1953","name":"乌尔姆设计学院","level":"yellow","reason":"现代设计科学化发展","core":"系统设计、理性方法、设计教育","figures":[],"impact":"影响德国现代设计体系"},
+    {"year":"1960s","name":"波普设计","level":"blue","reason":"消费社会与大众文化影响设计","core":"商业文化、符号、大众审美","figures":[],"impact":"推动后现代设计多元化"}
+  ]
+}
