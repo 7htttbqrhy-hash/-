@@ -1,0 +1,30 @@
+{
+  "title": "考研万能设计案例库",
+  "description": "用于简答题与论述题的设计案例调用",
+  "cases": [
+    {
+      "name": "红屋 Red House",
+      "importance": "red",
+      "movement": "工艺美术运动",
+      "designer": "威廉·莫里斯",
+      "keywords": ["手工艺", "艺术与生活结合", "反对工业粗制滥造"],
+      "usage": ["工艺美术运动特点", "现代设计思想萌芽"]
+    },
+    {
+      "name": "包豪斯校舍",
+      "importance": "red",
+      "movement": "包豪斯",
+      "designer": "瓦尔特·格罗皮乌斯",
+      "keywords": ["艺术与技术统一", "现代设计教育", "功能主义"],
+      "usage": ["现代主义设计", "设计教育体系"]
+    },
+    {
+      "name": "巴塞罗那椅",
+      "importance": "yellow",
+      "movement": "国际主义设计",
+      "designer": "米斯·凡德罗",
+      "keywords": ["少即是多", "理性主义", "现代形式"],
+      "usage": ["功能主义设计分析"]
+    }
+  ]
+}
