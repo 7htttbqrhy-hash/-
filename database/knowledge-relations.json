@@ -1,0 +1,28 @@
+{
+  "relations": [
+    {
+      "source": "工艺美术运动",
+      "target": ["威廉·莫里斯", "约翰·拉斯金", "红屋"],
+      "type": "movement_to_resources",
+      "level": "red"
+    },
+    {
+      "source": "德意志制造联盟",
+      "target": ["彼得·贝伦斯", "AEG企业设计"],
+      "type": "movement_to_resources",
+      "level": "red"
+    },
+    {
+      "source": "包豪斯",
+      "target": ["格罗皮乌斯", "瓦西里椅"],
+      "type": "movement_to_resources",
+      "level": "red"
+    },
+    {
+      "source": "国际主义设计",
+      "target": ["米斯·凡德罗", "巴塞罗那椅"],
+      "type": "movement_to_resources",
+      "level": "red"
+    }
+  ]
+}
