@@ -1,0 +1,24 @@
+{
+  "module":"learning_progress",
+  "purpose":"设计史考研复习进度管理",
+  "levels":[
+    {
+      "name":"基础阶段",
+      "target":"建立设计史时间线与核心概念"
+    },
+    {
+      "name":"强化阶段",
+      "target":"掌握人物、作品与题型关联"
+    },
+    {
+      "name":"冲刺阶段",
+      "target":"完成名词解释、简答题、论述题训练"
+    }
+  ],
+  "priority_rule":"red_first",
+  "color_system":{
+    "red":"必背核心",
+    "yellow":"高频重点",
+    "blue":"扩展理解"
+  }
+}
