@@ -1,0 +1,16 @@
+{
+  "title":"Design History Intelligence Dashboard",
+  "modules":[
+    {"name":"时间轴","source":"design-history.json","icon":"timeline","priority":"core"},
+    {"name":"人物库","source":"designers.json","icon":"person","priority":"core"},
+    {"name":"作品案例","source":"works.json","icon":"work","priority":"high"},
+    {"name":"考研题库","source":"exam-bank.json","icon":"exam","priority":"core"},
+    {"name":"知识图谱","source":"knowledge-graph.json","icon":"graph","priority":"high"},
+    {"name":"复习系统","source":"review-system.json","icon":"study","priority":"core"}
+  ],
+  "levels":{
+    "red":"必背核心",
+    "yellow":"高频重点",
+    "blue":"扩展了解"
+  }
+}
