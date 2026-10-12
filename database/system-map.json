@@ -1,0 +1,35 @@
+{
+  "title": "设计史考研知识系统架构",
+  "modules": [
+    {
+      "name": "时间轴",
+      "source": "design-history.json",
+      "purpose": "按照历史发展顺序理解设计运动演变"
+    },
+    {
+      "name": "人物库",
+      "source": "designers.json",
+      "purpose": "建立设计师思想与实践关联"
+    },
+    {
+      "name": "作品库",
+      "source": "works.json",
+      "purpose": "为简答题和论述题提供案例支撑"
+    },
+    {
+      "name": "题库",
+      "source": "exam-bank.json",
+      "purpose": "对应名词解释、简答题、论述题训练"
+    },
+    {
+      "name": "知识图谱",
+      "source": "knowledge-graph.json",
+      "purpose": "展示设计史逻辑关系"
+    }
+  ],
+  "priority": [
+    "教材准确性",
+    "考研重要程度",
+    "知识关联能力"
+  ]
+}
