@@ -1,72 +1,15 @@
 [
-  {
-    "year":"1760-1840",
-    "title":"工业革命 Industrial Revolution",
-    "level":"red",
-    "importance":"★★★★★",
-    "book":"何人可《工业设计史》",
-    "keywords":["机器生产","工业化","标准化"],
-    "exam":["简答题","论述题"],
-    "summary":"工业革命改变了设计生产方式，使设计从传统手工艺走向现代工业体系。"
-  },
-  {
-    "year":"1851",
-    "title":"水晶宫国际博览会 Crystal Palace",
-    "level":"yellow",
-    "importance":"★★★★",
-    "book":"何人可《工业设计史》",
-    "keywords":["工业展示","机械美学","设计改革"],
-    "exam":["简答题"],
-    "summary":"展示工业技术成果，同时暴露工业产品审美不足的问题。"
-  },
-  {
-    "year":"1880s",
-    "title":"工艺美术运动 Arts and Crafts",
-    "level":"red",
-    "importance":"★★★★★",
-    "book":"何人可《工业设计史》 李砚祖《艺术设计概论》",
-    "keywords":["威廉·莫里斯","拉斯金","手工艺复兴"],
-    "exam":["名词解释","简答题","论述题"],
-    "summary":"英国设计改革运动，反对工业化导致的粗制滥造，强调艺术与生活结合。"
-  },
-  {
-    "year":"1907",
-    "title":"德意志制造联盟 Deutscher Werkbund",
-    "level":"red",
-    "importance":"★★★★★",
-    "book":"何人可《工业设计史》",
-    "keywords":["穆特修斯","贝伦斯","艺术工业结合"],
-    "exam":["名词解释","简答题"],
-    "summary":"推动艺术、工业和商业结合，是现代设计发展的重要阶段。"
-  },
-  {
-    "year":"1919-1933",
-    "title":"包豪斯 Bauhaus",
-    "level":"red",
-    "importance":"★★★★★",
-    "book":"何人可《工业设计史》 李砚祖《艺术设计概论》",
-    "keywords":["艺术与技术的新统一","格罗皮乌斯","现代设计教育"],
-    "exam":["名词解释","简答题","论述题"],
-    "summary":"现代设计教育体系的重要起点，推动功能主义和现代主义设计发展。"
-  },
-  {
-    "year":"1920s",
-    "title":"装饰艺术运动 Art Deco",
-    "level":"yellow",
-    "importance":"★★★★",
-    "book":"何人可《工业设计史》",
-    "keywords":["几何化","现代都市","装饰性"],
-    "exam":["简答题"],
-    "summary":"两次世界大战之间的重要设计风格，融合现代技术与装饰美学。"
-  },
-  {
-    "year":"1950s",
-    "title":"国际主义设计 International Style",
-    "level":"red",
-    "importance":"★★★★★",
-    "book":"何人可《工业设计史》",
-    "keywords":["功能主义","标准化","少即是多"],
-    "exam":["简答题","论述题"],
-    "summary":"现代主义设计在战后的延续，强调理性、功能和统一形式。"
-  }
+  {"year":"1760-1840","title":"工业革命 Industrial Revolution","level":"red","importance":"★★★★★","book":"何人可《工业设计史》","keywords":["机器生产","工业化","标准化"],"exam":["简答题","论述题"],"summary":"工业革命改变设计生产方式，使设计由传统手工艺进入现代工业体系。"},
+  {"year":"1851","title":"水晶宫国际博览会 Crystal Palace","level":"yellow","importance":"★★★★","book":"何人可《工业设计史》","keywords":["工业展示","机械生产","设计改革"],"exam":["简答题"],"summary":"展示工业技术成果，同时暴露工业产品形式与审美问题。"},
+  {"year":"1880s","title":"工艺美术运动 Arts and Crafts","level":"red","importance":"★★★★★","book":"何人可《工业设计史》 李砚祖《艺术设计概论》","keywords":["威廉·莫里斯","拉斯金","手工艺"],"exam":["名词解释","简答题","论述题"],"summary":"反对工业化造成的粗制滥造，强调艺术与生活结合。"},
+  {"year":"1890s","title":"新艺术运动 Art Nouveau","level":"red","importance":"★★★★","book":"何人可《工业设计史》","keywords":["自然曲线","有机形态","装饰改革"],"exam":["名词解释"],"summary":"以自然形态和曲线装饰为特征，探索新的设计风格。"},
+  {"year":"1907","title":"德意志制造联盟 Deutscher Werkbund","level":"red","importance":"★★★★★","book":"何人可《工业设计史》","keywords":["穆特修斯","贝伦斯","工业设计组织"],"exam":["名词解释","简答题"],"summary":"促进艺术、工业和商业结合，为现代设计奠定基础。"},
+  {"year":"1919-1933","title":"包豪斯 Bauhaus","level":"red","importance":"★★★★★","book":"何人可《工业设计史》 李砚祖《艺术设计概论》","keywords":["艺术与技术的新统一","格罗皮乌斯","现代设计教育"],"exam":["名词解释","简答题","论述题"],"summary":"建立现代设计教育体系，推动功能主义与现代主义发展。"},
+  {"year":"1920s","title":"装饰艺术运动 Art Deco","level":"yellow","importance":"★★★★","book":"何人可《工业设计史》","keywords":["几何化","都市文化","装饰美学"],"exam":["简答题"],"summary":"融合现代技术与装饰美学的重要设计风格。"},
+  {"year":"1930s","title":"美国商业设计 Commercial Design","level":"yellow","importance":"★★★★","book":"何人可《工业设计史》","keywords":["消费主义","企业形象","流线型设计"],"exam":["论述题案例"],"summary":"设计成为促进消费和塑造企业形象的重要工具。"},
+  {"year":"1950s","title":"国际主义设计 International Style","level":"red","importance":"★★★★★","book":"何人可《工业设计史》","keywords":["功能主义","标准化","少即是多"],"exam":["简答题","论述题"],"summary":"战后现代主义设计发展方向，强调理性与功能。"},
+  {"year":"1960s","title":"波普设计 Pop Design","level":"yellow","importance":"★★★★","book":"何人可《工业设计史》","keywords":["大众文化","消费文化"],"exam":["简答题"],"summary":"大众文化进入设计领域，反映消费社会特征。"},
+  {"year":"1970s","title":"后现代主义设计 Postmodernism","level":"red","importance":"★★★★★","book":"何人可《工业设计史》","keywords":["文脉","象征","多元化"],"exam":["名词解释","论述题"],"summary":"反思现代主义单一理性，强调文化意义和多元表达。"},
+  {"year":"1980s","title":"解构主义设计 Deconstructivism","level":"blue","importance":"★★★","book":"设计史扩展知识","keywords":["碎片化","非线性"],"exam":["了解"],"summary":"通过破碎、不稳定的形式探索新的空间与视觉语言。"},
+  {"year":"1990s-至今","title":"绿色设计与可持续设计 Sustainable Design","level":"red","importance":"★★★★★","book":"李砚祖《艺术设计概论》","keywords":["生态","资源","社会责任"],"exam":["论述题"],"summary":"关注环境、资源与社会责任，是当代设计的重要方向。"}
 ]
