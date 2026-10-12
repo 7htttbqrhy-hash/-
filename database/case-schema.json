@@ -1,0 +1,16 @@
+{
+  "case_schema": {
+    "id": "unique_case_id",
+    "title": "案例名称",
+    "period": "所属时期",
+    "movement": "设计运动",
+    "designer": "设计师",
+    "importance": "red/yellow/blue",
+    "background": "历史背景",
+    "design_idea": "设计思想",
+    "exam_usage": ["适用题型"],
+    "keywords": ["关键词"],
+    "answer_template": "考研答题表达模板"
+  },
+  "purpose": "统一案例库字段结构，支持案例匹配、详情展示和考研调用"
+}
