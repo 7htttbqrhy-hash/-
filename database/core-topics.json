@@ -1,0 +1,29 @@
+[
+  {
+    "topic":"工艺美术运动",
+    "level":"red",
+    "period":"19世纪后半叶",
+    "category":"design movement",
+    "exam":["名词解释","简答题","论述题"],
+    "links":["约翰·拉斯金","威廉·莫里斯","红屋"],
+    "keywords":["反对工业化粗制滥造","手工艺价值","艺术与生活结合"]
+  },
+  {
+    "topic":"包豪斯",
+    "level":"red",
+    "period":"1919-1933",
+    "category":"design education",
+    "exam":["名词解释","简答题","论述题"],
+    "links":["格罗皮乌斯","瓦西里椅"],
+    "keywords":["艺术与技术的新统一","现代设计教育体系"]
+  },
+  {
+    "topic":"国际主义设计",
+    "level":"red",
+    "period":"20世纪中期",
+    "category":"modern design",
+    "exam":["简答题","论述题"],
+    "links":["米斯·凡德罗","巴塞罗那椅"],
+    "keywords":["功能主义","少即是多","理性主义"]
+  }
+]
