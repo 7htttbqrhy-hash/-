@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "description": "考研设计史案例智能匹配规则",
+  "rules": [
+    {
+      "keywords": ["工艺美术运动", "手工艺", "莫里斯", "社会责任"],
+      "recommend": ["red-house", "william-morris"],
+      "level": "red"
+    },
+    {
+      "keywords": ["现代主义", "功能主义", "包豪斯", "艺术与技术统一"],
+      "recommend": ["bauhaus-building", "barcelona-chair"],
+      "level": "red"
+    },
+    {
+      "keywords": ["设计教育", "基础课程", "现代设计教学"],
+      "recommend": ["bauhaus-foundation-course"],
+      "level": "yellow"
+    }
+  ]
+}
