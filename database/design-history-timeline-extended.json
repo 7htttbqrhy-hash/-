@@ -1,0 +1,44 @@
+[
+  {
+    "year": "1917",
+    "event": "风格派运动 De Stijl",
+    "level": "yellow",
+    "keywords": ["蒙德里安", "新造型主义", "几何抽象"],
+    "exam_points": ["现代设计流派", "设计形式语言"]
+  },
+  {
+    "year": "1917",
+    "event": "俄国构成主义",
+    "level": "yellow",
+    "keywords": ["塔特林", "构成主义", "艺术与社会"],
+    "exam_points": ["现代设计思想", "设计社会功能"]
+  },
+  {
+    "year": "1925",
+    "event": "巴黎装饰艺术展 Art Deco",
+    "level": "yellow",
+    "keywords": ["装饰艺术", "现代感", "几何形式"],
+    "exam_points": ["20世纪设计风格"]
+  },
+  {
+    "year": "1953",
+    "event": "乌尔姆设计学院成立",
+    "level": "yellow",
+    "keywords": ["系统设计", "科学理性", "设计教育"],
+    "exam_points": ["现代设计教育发展"]
+  },
+  {
+    "year": "1960s",
+    "event": "波普设计运动",
+    "level": "blue",
+    "keywords": ["大众文化", "消费社会", "符号化设计"],
+    "exam_points": ["后现代设计背景"]
+  },
+  {
+    "year": "1980s",
+    "event": "解构主义设计",
+    "level": "blue",
+    "keywords": ["非线性", "反传统", "形式解构"],
+    "exam_points": ["当代设计趋势"]
+  }
+]
