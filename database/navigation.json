@@ -1,0 +1,25 @@
+{
+  "navigation": [
+    {
+      "name": "设计史时间轴",
+      "path": "index.html",
+      "target": "design-history"
+    },
+    {
+      "name": "知识图谱",
+      "path": "knowledge-graph.html",
+      "target": "knowledge-graph"
+    },
+    {
+      "name": "考研背诵模式",
+      "path": "study-mode.html",
+      "target": "exam-bank"
+    }
+  ],
+  "connections": {
+    "timeline_to_people": true,
+    "people_to_works": true,
+    "works_to_exam": true,
+    "exam_to_review": true
+  }
+}
