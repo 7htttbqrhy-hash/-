@@ -1,0 +1,39 @@
+{
+  "description": "Design history textbook mapping framework for Industrial Design History and Art Design Introduction",
+  "sources": [
+    "何人可《工业设计史》第五版",
+    "李砚祖《艺术设计概论》"
+  ],
+  "mapping": [
+    {
+      "topic": "工艺美术运动",
+      "importance": "red",
+      "book_focus": "现代设计萌芽、设计思想转变",
+      "exam_types": ["名词解释", "简答题", "论述题"]
+    },
+    {
+      "topic": "德意志制造联盟",
+      "importance": "red",
+      "book_focus": "工业设计形成、标准化与艺术结合",
+      "exam_types": ["名词解释", "简答题"]
+    },
+    {
+      "topic": "包豪斯",
+      "importance": "red",
+      "book_focus": "现代设计教育、艺术与技术统一",
+      "exam_types": ["名词解释", "论述题"]
+    },
+    {
+      "topic": "国际主义设计",
+      "importance": "yellow",
+      "book_focus": "现代主义设计发展及形式特征",
+      "exam_types": ["简答题", "比较题"]
+    },
+    {
+      "topic": "后现代主义设计",
+      "importance": "yellow",
+      "book_focus": "现代主义之后设计观念变化",
+      "exam_types": ["论述题"]
+    }
+  ]
+}
