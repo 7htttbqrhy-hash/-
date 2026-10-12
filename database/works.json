@@ -1,0 +1,42 @@
+[
+  {
+    "name":"红屋 Red House",
+    "designer":"威廉·莫里斯",
+    "movement":"工艺美术运动",
+    "level":"red",
+    "keywords":["手工艺","生活艺术化"],
+    "exam":["简答题","论述题"]
+  },
+  {
+    "name":"AEG企业整体设计",
+    "designer":"彼得·贝伦斯",
+    "movement":"德意志制造联盟",
+    "level":"red",
+    "keywords":["企业形象设计","工业设计体系"],
+    "exam":["案例分析","论述题"]
+  },
+  {
+    "name":"瓦西里椅 Wassily Chair",
+    "designer":"马塞尔·布劳耶",
+    "movement":"包豪斯",
+    "level":"red",
+    "keywords":["钢管家具","功能主义"],
+    "exam":["设计案例"]
+  },
+  {
+    "name":"巴塞罗那椅 Barcelona Chair",
+    "designer":"米斯·凡德罗",
+    "movement":"国际主义设计",
+    "level":"red",
+    "keywords":["现代主义","简洁结构"],
+    "exam":["设计案例","论述题"]
+  },
+  {
+    "name":"范斯沃斯住宅 Farnsworth House",
+    "designer":"米斯·凡德罗",
+    "movement":"国际主义设计",
+    "level":"yellow",
+    "keywords":["少即是多","透明性"],
+    "exam":["案例分析"]
+  }
+]
