@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "industrial-revolution",
+      "title": "工业革命",
+      "period": "1750-1850",
+      "level": "red",
+      "cause": "机械化生产改变传统手工业体系，生产方式发生根本变化。",
+      "problem": "工业生产快速发展，但产品品质与审美出现矛盾。",
+      "figures": [],
+      "influence": "成为现代设计产生的重要社会背景。"
+    },
+    {
+      "id": "arts-crafts",
+      "title": "工艺美术运动",
+      "period": "1880s",
+      "level": "red",
+      "cause": "工业化生产造成粗制滥造问题。",
+      "problem": "如何协调工业生产与艺术价值。",
+      "figures": ["威廉·莫里斯", "约翰·拉斯金"],
+      "influence": "推动现代设计思想形成。"
+    },
+    {
+      "id": "bauhaus",
+      "title": "包豪斯",
+      "period": "1919",
+      "level": "red",
+      "cause": "现代工业需要新的设计教育体系。",
+      "problem": "艺术、技术与工业生产如何结合。",
+      "figures": ["格罗皮乌斯"],
+      "influence": "建立现代设计教育模式。"
+    }
+  ]
+}
