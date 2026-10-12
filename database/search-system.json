@@ -1,0 +1,27 @@
+{
+  "name":"Global Knowledge Search",
+  "description":"跨时间轴、人物、作品、题库的统一搜索配置",
+  "sources":[
+    {
+      "name":"design-history",
+      "file":"database/design-history.json",
+      "fields":["name","time","keywords","summary"]
+    },
+    {
+      "name":"designers",
+      "file":"database/designers.json",
+      "fields":["name","movement","keywords","importance"]
+    },
+    {
+      "name":"works",
+      "file":"database/works.json",
+      "fields":["name","designer","movement","keywords"]
+    },
+    {
+      "name":"exam-bank",
+      "file":"database/exam-bank.json",
+      "fields":["question","type","keywords"]
+    }
+  ],
+  "priority":["red","yellow","blue"]
+}
