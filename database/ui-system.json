@@ -1,0 +1,23 @@
+{
+  "theme": "design_exhibition_dark",
+  "color_system": {
+    "primary": "black_white_gray",
+    "importance": {
+      "red": "核心必背",
+      "yellow": "高频重点",
+      "blue": "扩展理解"
+    }
+  },
+  "components": [
+    "global_navigation",
+    "search_panel",
+    "timeline_card",
+    "knowledge_detail_panel",
+    "study_progress_card"
+  ],
+  "interaction": {
+    "hover": "preview",
+    "click": "detail_view",
+    "search": "cross_database"
+  }
+}
