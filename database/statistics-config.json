@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "title": "Design History Dashboard",
+    "modules": [
+      {
+        "name": "设计史时间轴",
+        "source": "design-history.json",
+        "metric": "timeline_nodes"
+      },
+      {
+        "name": "设计师知识库",
+        "source": "designers.json",
+        "metric": "designer_count"
+      },
+      {
+        "name": "作品案例库",
+        "source": "works.json",
+        "metric": "work_count"
+      },
+      {
+        "name": "考研题库",
+        "source": "exam-bank.json",
+        "metric": "question_count"
+      }
+    ],
+    "priority": ["red", "yellow", "blue"]
+  }
+}
