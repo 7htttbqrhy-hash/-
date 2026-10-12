@@ -7,6 +7,10 @@ search.placeholder='搜索设计运动 / 人物 / 关键词';
 search.className='search';
 box.parentNode.insertBefore(search,box);
 
+const panel=document.createElement('aside');
+panel.id='detailPanel';
+document.body.appendChild(panel);
+
 fetch('database/design-history.json')
 .then(res=>res.json())
 .then(json=>{
@@ -16,10 +20,7 @@ fetch('database/design-history.json')
 
 function render(keyword='',level=current){
  box.innerHTML='';
- data.filter(i=>
- (level==='all'||i.level===level)&&
- JSON.stringify(i).includes(keyword)
- ).forEach(i=>{
+ data.filter(i=>(level==='all'||i.level===level)&&JSON.stringify(i).includes(keyword)).forEach(i=>{
   box.innerHTML+=`
   <section class="node ${i.level}" onclick="openDetail('${i.title}')">
    <h2>${i.year}｜${i.title}</h2>
@@ -32,17 +33,23 @@ function render(keyword='',level=current){
  });
 }
 
-function renderLevel(level){
- current=level;
- render(search.value,level);
-}
+function renderLevel(level){current=level;render(search.value,level)}
 
 function openDetail(title){
  const item=data.find(i=>i.title===title);
  if(!item)return;
- alert(
- `${item.title}\n\n时间：${item.year}\n\n关键词：${(item.keywords||[]).join('、')}\n\n适合题型：${(item.exam||[]).join('、')}`
- );
+ panel.innerHTML=`
+ <button onclick="closeDetail()">×</button>
+ <h2>${item.title}</h2>
+ <h3>${item.year||''}</h3>
+ <p>${item.summary||''}</p>
+ <hr>
+ <p><b>关键词：</b>${(item.keywords||[]).join('、')}</p>
+ <p><b>教材：</b>${item.book||'相关知识点'}</p>
+ <p><b>题型：</b>${(item.exam||[]).join('、')}</p>
+ <p><b>重要程度：</b>${item.importance||''}</p>`;
+ panel.classList.add('active');
 }
 
+function closeDetail(){panel.classList.remove('active')}
 search.addEventListener('input',e=>render(e.target.value));
