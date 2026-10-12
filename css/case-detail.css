@@ -1,0 +1,59 @@
+/* Case Detail Page Visual System */
+.case-detail {
+  background: #0b0b0b;
+  color: #f5f5f5;
+  min-height: 100vh;
+  padding: 48px;
+}
+
+.case-header {
+  border-bottom: 1px solid rgba(255,255,255,.15);
+  padding-bottom: 32px;
+}
+
+.case-level {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.case-level.red {
+  background: rgba(220,0,0,.18);
+  border: 1px solid #d22;
+}
+
+.case-level.yellow {
+  background: rgba(220,180,0,.18);
+  border: 1px solid #dbb400;
+}
+
+.case-level.blue {
+  background: rgba(0,100,220,.18);
+  border: 1px solid #1680ff;
+}
+
+.case-section {
+  margin-top: 32px;
+  padding: 24px;
+  background: rgba(255,255,255,.04);
+  border-radius: 12px;
+}
+
+.case-section h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.case-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.case-tag {
+  padding: 5px 12px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 999px;
+}
